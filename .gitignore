@@ -7,7 +7,7 @@
 *.table
 
 # Banco de dados
-*.sqlite
+.sqlite
 
 # web2py cache, erros e arquivos de sessão
 cache/*
