@@ -10,9 +10,9 @@
 .sqlite
 
 # web2py cache, erros e arquivos de sessão
-cache/*
-errors/*
-sessions/*
-cache/*
-uploads/*
-databases/*
+cache
+errors
+sessions
+cache
+uploads
+databases
