@@ -1,0 +1,15 @@
+{{extend 'base.html'}}
+
+<div class="container my-4">
+      <div class="jumbotron">
+        <h1 class="display-4">Bem vindo ao sistema, {{=auth.user.first_name}} !</h1>
+        <p class="lead">Este é um sistema de gestão de cursos.</p>
+        <hr class="my-4">
+        <p>Para cadastrar um curso, clique no botão abaixo:</p>
+        <a class="btn btn-primary btn-lg" href="{{=URL('novo_curso')}}" role="button">Cadastrar Curso</a>
+      </div>
+    </div>
+
+
+
+
